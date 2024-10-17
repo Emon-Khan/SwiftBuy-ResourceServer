@@ -149,6 +149,12 @@ docker-compose down
 - Description: Delete a basket by its ID.
 - Response: Basket ID if successfully deleted.
 
+## Future Improvements
+- **OAuth2 and JWT Authentication**: Currently in development to enhance the security of the resource server.
+- **Event-Driven Architecture**: Orders will trigger multiple background processes using a publisher-subscriber pattern, improving scalability and responsiveness.
+- **Delivery Functionality**: Integration of a delivery system to manage the shipping and tracking of products.
+- **Image-Based Product Search**: Users will be able to search for products by uploading an image, enhancing the shopping experience with advanced search capabilities.
+
 ### Screenshots
 ![image](https://github.com/user-attachments/assets/02506840-6c32-4887-9c7f-0c0e1b7144c4)
 ![image](https://github.com/user-attachments/assets/684b752b-a713-4772-ad00-60dea172c874)
