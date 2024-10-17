@@ -74,3 +74,6 @@ Thumbs.db
 !**/src/test/**/target/
 !**/src/main/**/build/
 !**/src/test/**/build/
+
+# Ignore all environment variable files
+*.env
