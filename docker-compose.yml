@@ -1,14 +1,11 @@
-version: '3.8'
+version: "3.8"
 
 services:
-
   eshop:
     image: mysql:latest
     container_name: mysqldb
-    environment:
-      MYSQL_ROOT_PASSWORD: delight123
-      MYSQL_DATABASE: ecommerce-on-cloud
-      
+    env_file:
+      - variables.env
     ports:
       - "3308:3306"
     volumes:
@@ -19,15 +16,11 @@ services:
     container_name: cart
     ports:
       - 6379:6379
-    command: ["redis-server","--appendonly", "yes"]
+    command: ["redis-server", "--appendonly", "yes"]
 
     volumes:
       - redis-data:/data
-     
-   
 
 volumes:
   redis-data:
   mysql-data:
- 
-
