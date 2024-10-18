@@ -21,7 +21,7 @@ The SwiftBuy-ResourceServer is a core part of the SwiftBuy project, managing pro
 - **MySQL Database** (Docker or local)
 - **Redis** (Docker or local)
 
-### Installation
+## Installation
 
 1. **Clone the Repository**
 
