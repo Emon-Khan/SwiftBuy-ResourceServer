@@ -36,35 +36,36 @@ The SwiftBuy-ResourceServer is a core part of the SwiftBuy project, managing pro
    cd SwiftBuy-ResourceServer
    ```
 3. **Run MySQL and Redis with Docker (Optional)**
-If you want to use MySQL and Redis through **Docker**, you can configure the environment variables by creating a **variables.env** file, which will store the necessary environment values.
 
-Steps to create and use the **variables.env** file:
-
-Create the variables.env file: In the root of your project directory, create a new file called **variables.env**.
-
-Add the following environment variables to the variables.env file:
-```bash
-# MySQL Config
-MYSQL_ROOT_PASSWORD: your_password
-MYSQL_DATABASE: your_database_name
-```
-
-Start the services using **Docker Compose**:
-
-Now, you can start MySQL and Redis with the following command:
-
-```bash
-docker-compose up
-```
-Docker Compose will automatically load the environment variables from the **variables.env** file.
-
-Stop the services:
-
-When you want to stop the running containers, use:
-
-```bash
-docker-compose down
-```
+   If you want to use MySQL and Redis through **Docker**, you can configure the environment variables by creating a **variables.env** file, which will store the necessary environment values.
+   
+   Steps to create and use the **variables.env** file:
+   
+   Create the variables.env file: In the root of your project directory, create a new file called **variables.env**.
+   
+   Add the following environment variables to the variables.env file:
+   ```bash
+   # MySQL Config
+   MYSQL_ROOT_PASSWORD: your_password
+   MYSQL_DATABASE: your_database_name
+   ```
+   
+   Start the services using **Docker Compose**:
+   
+   Now, you can start MySQL and Redis with the following command:
+   
+   ```bash
+   docker-compose up
+   ```
+   Docker Compose will automatically load the environment variables from the **variables.env** file.
+   
+   Stop the services:
+   
+   When you want to stop the running containers, use:
+   
+   ```bash
+   docker-compose down
+   ```
 
 
 4. **Alternatively, configure your local MySQL and Redis**
@@ -79,13 +80,13 @@ docker-compose down
 
 - For Redis, ensure Redis is running locally on the default port (6379).
 
-4. **Build the Project**
+5. **Build the Project**
 
    ```bash
    mvn clean install
    ```
 
-5. **Run the application**
+6. **Run the application**
 
    ```bash
    mvn spring-boot:run
@@ -163,7 +164,12 @@ docker-compose down
 ![image](https://github.com/user-attachments/assets/472059d4-27d3-45ae-b310-c4c159f6b222)
 ![image](https://github.com/user-attachments/assets/e9ce164f-89ac-43c4-b076-5f24439498c9)
 ![image](https://github.com/user-attachments/assets/666a5504-d717-4d16-976f-605f32947ab9)
-
+![image](https://github.com/user-attachments/assets/7e3f88f2-ee09-4883-9905-55de8e3d1412)
+![image](https://github.com/user-attachments/assets/d0994547-4955-4a68-b647-a89f37c0c983)
+![image](https://github.com/user-attachments/assets/9b5e5ccc-6cd9-4b2a-8295-c85f49a01fc6)
+![image](https://github.com/user-attachments/assets/9d0a7997-ccbb-4d4b-ae6b-12adbf1b764c)
+![image](https://github.com/user-attachments/assets/185fb2f4-aeb8-458f-af34-55b77eb01649)
+![image](https://github.com/user-attachments/assets/d4a6a05a-8542-4b02-8be1-4ca058bf169a)
 
 
 
